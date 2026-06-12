@@ -44,25 +44,22 @@ The repository reproduces the four main components of the study:
 
 
 
-All figure-level source data used in the manuscript are provided as Excel workbooks (`SourceData\_Fig1.xlsx`–`SourceData\_Fig4.xlsx`), and each worksheet corresponds to an individual panel in the published figures.
-
-
 
 ## Contents
 
 ### Analysis scripts
 
-* `Step1\_hacks\_scaling\_analysis.py`  
+* `Step1_hacks_scaling_analysis.py`  
 Hack's law analysis, river-grade stratification, and nested-model evaluation.
-* `Step2\_climate\_hack\_modulation.py`  
+* `Step2_climate_hack_modulation.py`  
 Per-river Hack exponent (`h`) versus long-term mean precipitation (`P`).
-* `Step3\_rp\_scaling\_climate.py`  
+* `Step3_rp_scaling_climate.py`  
 Sliding-window runoff-efficiency scaling (`beta`) along the precipitation gradient.
-* `Step4\_structure\_efficiency\_coupling.py`  
+* `Step4_structure_efficiency_coupling.py`  
 River-network structure proxies versus runoff efficiency, controlling for area and precipitation.
-* `Step5\_lake\_modulation.py`  
+* `Step5_lake_modulation.py`  
 Lake abundance/density effects on runoff efficiency and local scaling behavior.
-* `Step6\_admin\_fragmentation.py`  
+* `Step6_admin_fragmentation.py`  
 Administrative fragmentation as a perturbation to Hack's law and runoff-efficiency scaling.
 
 ### Figure source-data workbooks
@@ -78,7 +75,7 @@ Each workbook is organized by sheet, and each sheet corresponds to a panel in th
 
 1. Place the merged river dataset and any auxiliary inputs in the paths expected by the scripts.
 2. Edit the input/output paths near the top of each script if needed.
-3. Run the scripts in sequence, starting with `Step1\_hacks\_scaling\_analysis.py`.
+3. Run the scripts in sequence, starting with `Step1_hacks_scaling_analysis.py`.
 4. The later scripts reuse the same cleaned river dataset and write their outputs to module-specific result folders.
 
 ## Data and variables
@@ -90,8 +87,8 @@ Common variables used across the scripts include:
 * `P_mm`: long-term mean precipitation in mm
 * `R_mm`: runoff in mm
 * `RP = R/P`: runoff efficiency
-* `h`: Hack exponent from `log10(L) \~ log10(A)`
-* `beta`: runoff-efficiency scaling exponent from `log10(R/P) \~ log10(A)`
+* `h`: Hack exponent from `log10(L) ~ log10(A)`
+* `beta`: runoff-efficiency scaling exponent from `log10(R/P) ~ log10(A)`
 
 ## Output structure
 
@@ -114,7 +111,7 @@ Typical outputs include:
 
 
 
-Figure-level source data used to reproduce all analyses and figures are provided in this repository as `SourceData\_Fig1.xlsx`–`SourceData\_Fig4.xlsx`.
+Figure-level source data used to reproduce all analyses and figures are provided in this repository as `SourceData_Fig1.xlsx`–`SourceData_Fig4.xlsx`.
 
 
 
