@@ -20,25 +20,25 @@ The repository reproduces the four main components of the study:
 
 
 
-1\. \*\*Climate-constrained geometric scaling\*\*
+1\. Climate-constrained geometric scaling
 
 &#x20;  - Evaluation of Hack's law across climatic gradients and river hierarchies.
 
 
 
-2\. \*\*Climate-dependent functional scaling\*\*
+2\. Climate-dependent functional scaling
 
 &#x20;  - Quantification of precipitation controls on runoff-efficiency scaling exponents.
 
 
 
-3\. \*\*Hydrological connectivity regulates functional scaling\*\*
+3\. Hydrological connectivity regulates functional scaling
 
 &#x20;  - Assessment of the influence of river-network structure and lake systems on runoff efficiency and scaling behavior.
 
 
 
-4\. \*\*Human fragmentation reshapes geometric and functional scaling\*\*
+4\. Human fragmentation reshapes geometric and functional scaling
 
 &#x20;  - Examination of how administrative partitioning alters natural scaling relationships.
 
