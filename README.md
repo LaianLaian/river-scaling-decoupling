@@ -10,9 +10,9 @@ Using 41,677 rivers across China, this study investigates how climatic forcing, 
 
 
 
-\- \*\*Geometric scaling\*\*, represented by Hack's law linking river length and drainage area, which remains highly conserved across climatic gradients and river hierarchies.
+\- Geometric scaling, represented by Hack's law linking river length and drainage area, which remains highly conserved across climatic gradients and river hierarchies.
 
-\- \*\*Functional scaling\*\*, represented by runoff-efficiency scaling, which varies systematically with precipitation, hydrological connectivity, and administrative fragmentation.
+\- Functional scaling, represented by runoff-efficiency scaling, which varies systematically with precipitation, hydrological connectivity, and administrative fragmentation.
 
 
 
