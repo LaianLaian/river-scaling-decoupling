@@ -67,10 +67,10 @@ Administrative fragmentation as a perturbation to Hack's law and runoff-efficien
 
 ### Figure source-data workbooks
 
-* `SourceData\_Fig1.xlsx`
-* `SourceData\_Fig2.xlsx`
-* `SourceData\_Fig3.xlsx`
-* `SourceData\_Fig4.xlsx`
+* `SourceData_Fig1.xlsx`
+* `SourceData_Fig2.xlsx`
+* `SourceData_Fig3.xlsx`
+* `SourceData_Fig4.xlsx`
 
 Each workbook is organized by sheet, and each sheet corresponds to a panel in the manuscript figure set (for example, `Fig1a`, `Fig1b`, etc.). The sheets contain the exact tabular inputs used to reproduce the corresponding panels. Schematic-only panels are not associated with a spreadsheet sheet if no numeric data are required.
 
@@ -85,10 +85,10 @@ Each workbook is organized by sheet, and each sheet corresponds to a panel in th
 
 Common variables used across the scripts include:
 
-* `L\_km`: river length in km
-* `A\_km2`: drainage area in km²
-* `P\_mm`: long-term mean precipitation in mm
-* `R\_mm`: runoff in mm
+* `L_km`: river length in km
+* `A_km2`: drainage area in km²
+* `P_mm`: long-term mean precipitation in mm
+* `R_mm`: runoff in mm
 * `RP = R/P`: runoff efficiency
 * `h`: Hack exponent from `log10(L) \~ log10(A)`
 * `beta`: runoff-efficiency scaling exponent from `log10(R/P) \~ log10(A)`
