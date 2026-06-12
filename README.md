@@ -69,7 +69,9 @@ Administrative fragmentation as a perturbation to Hack's law and runoff-efficien
 * `SourceData_Fig3.xlsx`
 * `SourceData_Fig4.xlsx`
 
-Each workbook is organized by sheet, and each sheet corresponds to a panel in the manuscript figure set (for example, `Fig1a`, `Fig1b`, etc.). The sheets contain the exact tabular inputs used to reproduce the corresponding panels. Schematic-only panels are not associated with a spreadsheet sheet if no numeric data are required.
+Each workbook is organized by sheet, and each sheet corresponds to a panel in the manuscript figure set (for example, `Fig1a`, `Fig1b`, etc.). 
+For panels generated directly from the restricted river-network database, summary statistics (e.g., scaling exponents, confidence intervals, model fit metrics, and sample sizes) are provided instead of the underlying river-level observations. For all other panels, the sheets contain the tabular data used to reproduce the corresponding figures.
+Schematic-only panels are not associated with a spreadsheet sheet if no numeric data are required.
 
 ## How to reproduce the analysis
 
@@ -110,18 +112,13 @@ Typical outputs include:
 ## Data availability
 
 
+Figure-level source data used to generate the figures are provided in this repository as `SourceData_Fig1.xlsx`–`SourceData_Fig4.xlsx`.
 
-Figure-level source data used to reproduce all analyses and figures are provided in this repository as `SourceData_Fig1.xlsx`–`SourceData_Fig4.xlsx`.
+For panels derived directly from the restricted river-network database, summary statistics are provided rather than the underlying river-level observations.
 
-
-
-The compiled river-network and lake datasets underlying the study are not publicly distributed. These datasets may be made available by W.W. Shao pending scientific review and completion of a material transfer agreement.
-
-
+The compiled river-network and lake datasets supporting the findings of this study are not publicly distributed. These datasets may be made available by W.W. Shao pending scientific review and completion of a material transfer agreement.
 
 Requests for access should be directed to:
-
-
 
 \[shaoww@iwhr.com]
 
